@@ -34,6 +34,12 @@
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
+    
+    {% if site.behance %}
+        <a class="link" data-title="behance.net/{{ site.behance }}" href="https://www.behance.net/{{ site.behance }}" target="_blank">
+            <svg class="icon icon-behance"><use xlink:href="#icon-behance"></use></svg>
+        </a>
+    {% endif %}
 
     {% if site.youtube %}
         <a class="link" data-title="youtube.com/{{ site.youtube }}" href="https://youtube.com/{{ site.youtube }}" target="_blank">
